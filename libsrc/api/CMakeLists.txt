@@ -1,5 +1,10 @@
 set(LIB_PUBLIC_SOURCES
-    IDummy.hpp
+    Framework/Logging/LogComposer.hpp
+    Framework/Logging/Logger.hpp
+    Framework/Logging/LogWriter.hpp
+    Framework/Logging/Logging.hpp
+    Framework/Logging/ILogWriter.hpp
+    Framework/Logging/ILogComposer.hpp
 )
 
 if (BUILD_SHARED_LIBS)
